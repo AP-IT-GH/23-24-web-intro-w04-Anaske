@@ -10,20 +10,60 @@
 
     <!-- TODO: koppel de eigen css uit `style.css` aan de HTML. -->
 
-    
-  </head>
+    <link href="./css/style.css" rel="stylesheet">
 
-  <body class="py-4">
+    <style>
+      @media (min-width: 1400px) {
+        .col-xxl-4.purple-bg {
+        background-color: #cf04beb4;
+        }
+      }
+    </style>
+
+  </head>
+   <body class="py-4">
     <header></header>
     <nav></nav>
     <main class="container">
       <h1 class="mt-4">Bootstrap grid met 5 niveaus</h1>
       <p>Het Bootstrap-rastersysteem heeft vijf niveaus en 6 breakpoints. Elke laag begint met een minimale viewport- of schermgrootte en is automatisch van toepassing op de grotere apparaten, tenzij deze wordt overschreven.</p>
-      <section class="row mb-3">
-        <article class="">.col-4</article>
-        <article class="">.col-4</article>
-        <article class="">.col-4</article>
+  
+      <section class="row mb-3 text-center">
+        <article class="col-4 themed-grid-col text-primary">.col-4</article>
+        <article class="col-4 themed-grid-col text-primary">.col-4</article>
+        <article class="col-4 themed-grid-col text-primary">.col-4</article>
       </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-sm-4 themed-grid-col text-success">.col-sm-4</article>
+        <article class="col-sm-4 themed-grid-col text-success">.col-sm-4</article>
+        <article class="col-sm-4 themed-grid-col text-success">.col-sm-4</article>
+      </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-md-4 themed-grid-col text-info">.col-md-4</article>
+        <article class="col-md-4 themed-grid-col text-info">.col-md-4</article>
+        <article class="col-md-4 themed-grid-col text-info">.col-md-4</article>
+      </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-lg-4 themed-grid-col text-warning">.col-lg-4</article>
+        <article class="col-lg-4 themed-grid-col text-warning">.col-lg-4</article>
+        <article class="col-lg-4 themed-grid-col text-warning">.col-lg-4</article>
+      </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-xl-4 themed-grid-col text-danger">.col-xl-4</article>
+        <article class="col-xl-4 themed-grid-col text-danger">.col-xl-4</article>
+        <article class="col-xl-4 themed-grid-col text-danger">.col-xl-4</article>
+      </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-xxl-4 themed-grid-col text-light purple-bg">.col-xxl-4</article>
+        <article class="col-xxl-4 themed-grid-col text-light purple-bg">.col-xxl-4</article>
+        <article class="col-xxl-4 themed-grid-col text-light purple-bg">.col-xxl-4</article>
+      </section>
+
     </main>
     <aside></aside>
     <footer></footer>
